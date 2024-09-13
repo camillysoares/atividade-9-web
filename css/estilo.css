@@ -1,0 +1,223 @@
+.boxPag ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(106, 49, 160);
+    border: 7px solid rgb(106, 49, 160);
+    border-radius: 5px;
+    color: rgb(49, 39, 120);
+}
+.boxPag{
+    display: flex;
+    height: 50px;
+    background-color:rgb(219, 172, 219);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boxPag a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);  
+}
+.box1 {
+    display: flex;
+    margin: 0 auto;
+    height:600px;
+    width: 1200px;
+    flex-direction: column;
+}
+
+.box2 {
+    display: flex;
+    flex: 1;
+    background-color: rgb(118, 24, 180);
+    padding: 10px;
+}
+
+.box2 h1{
+    color:rgb(255, 255, 255);
+}
+
+.box3 {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+}
+
+.boxMenu {
+    background-color: rgb(197, 157, 216);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxItem ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: rgb(118, 24, 180);
+    border: 5px solid rgb(118, 24, 180);
+    border-radius: 5px;
+}
+
+.boxItem {
+    text-decoration: none;
+    color: rgb(255, 252, 254);
+}
+
+.boxAd {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 157, 216);
+    flex: 1;
+}
+
+.box5 {
+    display: flex;
+    background-color: rgb(115, 40, 133);
+    flex: 2;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.boxMENU ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(60, 60, 150);
+    border: 7px solid rgb(60, 60, 150);
+    border-radius: 5px;
+    color: rgb(122, 150, 242);
+}
+.boxMENU{
+    display: flex;
+    height: 50px;
+    background-color:rgb(122, 150, 242);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boxMENU a{
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+
+}
+.boxXX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.boxXXX {
+    height: 50vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 35px;
+    margin-top: 90px
+}
+
+.box01 {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(152, 181, 237);
+}
+
+.box02 {
+    height: 30vh;
+    flex: 1;
+    background-color: rgb(60, 60, 150);
+}
+
+.box03 {
+    height: 15vh;
+    flex: 1;
+    background-color: rgb(152, 181, 237);
+}
+
+.box04 {
+    height: 35vh;
+    flex: 1;
+    background-color: rgb(60, 60, 150);
+}
+
+.box05 {
+    height: 50vh;
+    flex: 1;
+    background-color: rgb(152, 181, 237);
+}
+
+.box06 {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(60, 60, 150);
+}
+
+.boxUm {
+    display: flex;
+    height: 50px;
+    background-color:rgb(192, 255, 224);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.boxUm ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(60, 103, 46);
+    border: 7px solid rgb(60, 103, 46);
+    border-radius: 5px;
+    color: rgb(197, 243, 219);
+    margin: 10px;
+}
+
+.boxUm a{
+    text-decoration: none;
+    color: rgb(197, 243, 219);
+    
+}
+
+.boxDois {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxTres {
+    display: flex;
+    height: 400px;
+    width: 220px;
+    background-color: rgb(87, 126, 71);
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.boxTres p{
+    padding: 10px;
+    margin: 0;
+}
+
+.boxTres h1{
+    background-color: rgb(16, 74, 9);
+    border-bottom: 20px solid rgb(16, 74, 9);
+    margin-top: -10px;
+    color: rgb(197, 243, 219);
+    margin: 0;
+}
